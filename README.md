@@ -7,7 +7,7 @@ Params:
 - annual_rate (float): Annual interest rate (e.g., 0.07 for 7%)
 - inflow (float): Contribution per period
 - years (float): Investment duration in years
-- periods_per_year (int): Compounding frequency (e.g., 1 = yearly, 12 = monthly)
+- periods_per_year (int): Compounding frequency (e.g., Daily = 360, Monthly=12, Yearly = 1)
 
 Returns:
 - Print a summary resuming the n last compounding period details.
